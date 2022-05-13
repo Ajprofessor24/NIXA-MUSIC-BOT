@@ -14,7 +14,7 @@ from datetime import datetime
 hl = '/'
 deadlyversion = 'Spambot0.10'
 
-NIXA_PIC = "https://te.legra.ph/file/458d42a851b8ec54f865d.jpg"
+NIXA_PIC = "https://te.legra.ph/file/8c42393e12631e8f9b9a3.jpg"
   
 
 DEADLY = "✯ ᴍᴜsɪᴄ+ʀᴀɪᴅ sᴘᴀᴍ ʙᴏᴛ ✯\n\n"
@@ -32,11 +32,11 @@ async def alive(event):
                                   caption=DEADLY,
                                   buttons=[
         [
-        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/DEMON_CREATORS"),
-        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/World_FriendShip_Zone")
+        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/THE_PROFESSOR_NETWORK"),
+        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/about_ajeet")
         ],
         [
-        Button.url("• ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ •", "https://youtube.com/channel/UCtI7hbY-BD7wvuIzoSU0cEw")
+        Button.url("• ᴏᴡɴᴇʀ •", "https://t.me/PAPA_BOL_SAKTEHO")
         ]
         ]
         )
@@ -75,7 +75,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"🎉 𝗣 𝗢 𝗡 𝗚 !\n\n♡︎ `{ms}` ᴍs ♡︎")
+        await event.edit(f"🎉 𝐀𝐉𝐄𝐄𝐓 𓆩𝗫𓆪 𝐑𝐎𝐁𝐎𝐓         𝗣 𝗢 𝗡 𝗚 !\n\n♡︎ `{ms}` ᴍs ♡︎")
         
         
 
